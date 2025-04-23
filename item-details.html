@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Item Details - Food Maker</title>
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><img src="logo.jpg" alt="Food Maker Logo"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Support</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="item-details">
+        <div class="details-content">
+            <div class="item-image">
+                <img src="" alt="Item Image" id="item-image">
+            </div>
+            <div class="item-info">
+                <h2 id="item-name"></h2>
+                <div class="item-badge" id="item-badge"></div>
+                <p id="item-description"></p>
+                <div class="item-price">
+                    <span id="item-price"></span>
+                </div>
+                <div class="item-actions">
+                    <button class="add-to-cart">Add to Cart</button>
+                    <button class="favorite-btn">Add to Favorites</button>
+                </div>
+            </div>
+            <div class="chef-info">
+                <h3>Chef's Special</h3>
+                <p id="chef-note"></p>
+            </div>
+            <div class="ratings">
+                <div class="rating-info">
+                    <h3>Customer Rating</h3>
+                    <div class="star-rating" id="item-rating"></div>
+                </div>
+                <div class="rating-info">
+                    <h3>Popularity</h3>
+                    <p id="item-popularity"></p>
+                </div>
+            </div>
+            <div class="video-container">
+                <h3>Watch How It's Made</h3>
+                <iframe id="recipe-video" width="560" height="315" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>All Rights Reserved &copy; 2025 Food Maker | Designed by Vignan Lara</p>
+    </footer>
+
+    <script src="js/item-details.js"></script>
+</body>
+</html> 

@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu - Food Maker</title>
+    <link rel="stylesheet" href="css/menu.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo"><img src="logo.jpg" alt="Food Maker Logo"></div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="menu.html" class="active">Menu</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="contact.html">Contact Support</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="menu-hero">
+            <h1>Our Delicious Menu</h1>
+            <p>Experience the finest culinary delights crafted with passion</p>
+        </section>
+        <div class="category-tabs">
+            <button class="tab-btn active" data-category="sweets">Sweets</button>
+            <button class="tab-btn" data-category="snacks">Snacks</button>
+            <button class="tab-btn" data-category="veg-starters">Veg Starters</button>
+            <button class="tab-btn" data-category="non-veg-starters">Non-Veg Starters</button>
+            <button class="tab-btn" data-category="biryani">Biryani</button>
+            <button class="tab-btn" data-category="tiffins">Tiffins</button>
+            <button class="tab-btn" data-category="beverages">Beverages</button>
+            <button class="tab-btn" data-category="desserts">Desserts</button>
+        </div>
+        <section id="sweets" class="menu-category">
+            <h2>Traditional Indian Sweets</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src="images/menu/kaju-katli.jpg" alt="Kaju Katli">
+                    <div class="card-content">
+                        <h3>Kaju Katli <span class="veg-badge">🌱</span></h3>
+                        <p>Diamond-shaped cashew fudge</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="images/menu/rasmalai.jpg" alt="Rasmalai">
+                    <div class="card-content">
+                        <h3>Rasmalai <span class="veg-badge">🌱</span></h3>
+                        <p>Soft cheese patties soaked in sweet milk</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="images/menu/motichoor-laddu.jpg" alt="Motichoor Laddu">
+                    <div class="card-content">
+                        <h3>Motichoor Laddu <span class="veg-badge">🌱</span></h3>
+                        <p>Sweet balls made from gram flour</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="images/menu/mysore-pak.jpg" alt="Mysore Pak">
+                    <div class="card-content">
+                        <h3>Mysore Pak <span class="veg-badge">🌱</span></h3>
+                        <p>Soft, rich South Indian sweet</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Other category sections (hidden by default) -->
+        <section id="snacks" class="menu-category" style="display:none">
+            <h2>Popular Indian Snacks</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src="F:\FSD PROJECT LAB\Fsd\samosa.jpg" alt="Samosa">
+                    <div class="card-content">
+                        <h3>Samosa <span class="veg-badge">🌱</span></h3>
+                        <p>Crispy pastry filled with spicy potatoes and peas</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="F:\FSD PROJECT LAB\Fsd\dhokla.jpg" alt="Dhokla">
+                    <div class="card-content">
+                        <h3>Dhokla <span class="veg-badge"></span></h3>
+                        <p>Steamed savory cake made from fermented rice and chickpea batter</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="F:\FSD PROJECT LAB\Fsd\vadapav.jpg" alt="Vada Pav">
+                    <div class="card-content">
+                        <h3>Vada Pav <span class="veg-badge">🌱</span></h3>
+                        <p>Spicy potato fritter sandwiched in a bun, Mumbai style</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="veg-starters" class="menu-category" style="display:none">
+            <h2>Veg Starters</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src= "F:\FSD PROJECT LAB\Fsd\paneerthikka.jpg"alt="Paneer Tikka">
+                    <div class="card-content">
+                        <h3>Paneer Tikka <span class="veg-badge">🌱</span></h3>
+                        <p>Chunks of paneer marinated and grilled to perfection</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="F:\FSD PROJECT LAB\Fsd\hara bara kabab.jpg" alt="Hara Bhara Kabab">
+                    <div class="card-content">
+                        <h3>Hara Bhara Kabab <span class="veg-badge">🌱</span></h3>
+                        <p>Nutritious cutlets made with spinach, peas, and potatoes</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="F:\FSD PROJECT LAB\Fsd\spring rolls.jpg" alt="Spring Roll">
+                    <div class="card-content">
+                        <h3>Spring Roll <span class="veg-badge">🌱</span></h3>
+                        <p>Crispy rolls stuffed with mixed vegetables</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="non-veg-starters" class="menu-category" style="display:none">
+            <h2>Non-Veg Starters</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src= "F:\FSD PROJECT LAB\Fsd\chicken tikka.webp"alt="Chicken Tikka">
+                    <div class="card-content">
+                        <h3>Chicken Tikka 🍖</h3>
+                        <p>Chunks of chicken marinated in spices and grilled</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src= "F:\FSD PROJECT LAB\Fsd\masala-fish-fry.jpg"alt="Fish Fry">
+                    <div class="card-content">
+                        <h3>Fish Fry 🍖</h3>
+                        <p>Crispy fried fish with aromatic Indian spices</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="F:\FSD PROJECT LAB\Fsd\egg-pakora.jpg" alt="Egg Pakora">
+                    <div class="card-content">
+                        <h3>Egg Pakora </h3>
+                        <p>Egg slices dipped in spicy batter and deep fried</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="biryani" class="menu-category" style="display:none">
+            <h2>Biryani</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src= "F:\FSD PROJECT LAB\Fsd\hyderabadi biryani.jpg"alt="Hyderabadi Biryani">
+                    <div class="card-content">
+                        <h3>Hyderabadi Biryani 🍖</h3>
+                        <p>Fragrant rice layered with marinated meat and spices</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src="F:\FSD PROJECT LAB\Fsd\veg biryani.jpg" alt="Veg Biryani">
+                    <div class="card-content">
+                        <h3>Veg Biryani <span class="veg-badge">🌱</span></h3>
+                        <p>Mixed vegetables and basmati rice cooked with spices</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src= "F:\FSD PROJECT LAB\Fsd\Egg-Biryani.jpg"alt="Egg Biryani">
+                    <div class="card-content">
+                        <h3>Egg Biryani 🍳</h3>
+                        <p>Rice cooked with boiled eggs and aromatic masalas</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="tiffins" class="menu-category" style="display:none">
+            <h2>Tiffins</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src= "F:\FSD PROJECT LAB\Fsd\idli.jpg"alt="Idli">
+                    <div class="card-content">
+                        <h3>Idli <span class="veg-badge">🌱</span></h3>
+                        <p>Soft steamed rice cakes, a South Indian classic</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src= "F:\FSD PROJECT LAB\Fsd\dosa.jpeg"alt="Dosa">
+                    <div class="card-content">
+                        <h3>Dosa <span class="veg-badge">🌱</span></h3>
+                        <p>Crispy rice and lentil crepes, served with chutney</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src= "F:\FSD PROJECT LAB\Fsd\upma.jpg"alt="Upma">
+                    <div class="card-content">
+                        <h3>Upma <span class="veg-badge">🌱</span></h3>
+                        <p>Savory semolina breakfast dish with vegetables</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="beverages" class="menu-category" style="display:none">
+            <h2>Beverages</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src="F:\FSD PROJECT LAB\Fsd\masala chai.jpg" alt="Masala Chai">
+                    <div class="card-content">
+                        <h3>Masala Chai 🫖</h3>
+                        <p>Spiced Indian tea brewed with milk and herbs</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src= "F:\FSD PROJECT LAB\Fsd\lassi.jpg"alt="Lassi">
+                    <div class="card-content">
+                        <h3>Lassi 🥛</h3>
+                        <p>Refreshing yogurt-based drink, sweet or salty</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src= "F:\FSD PROJECT LAB\Fsd\filter coffee.jpg"alt="Filter Coffee">
+                    <div class="card-content">
+                        <h3>Filter Coffee ☕</h3>
+                        <p>South Indian style strong, aromatic coffee</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="desserts" class="menu-category" style="display:none">
+            <h2>Desserts</h2>
+            <div class="menu-grid">
+                <div class="menu-card">
+                    <img src= "F:\FSD PROJECT LAB\Fsd\gulab jamun.jpg"alt="Gulab Jamun">
+                    <div class="card-content">
+                        <h3>Gulab Jamun <span class="veg-badge">🌱</span></h3>
+                        <p>Soft milk-solid balls soaked in rose syrup</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src= "F:\FSD PROJECT LAB\Fsd\jilebi.jpg"alt="Jalebi">
+                    <div class="card-content">
+                        <h3>Jalebi <span class="veg-badge">🌱</span></h3>
+                        <p>Sweet, crispy, spiral-shaped dessert</p>
+                    </div>
+                </div>
+                <div class="menu-card">
+                    <img src= "F:\FSD PROJECT LAB\Fsd\rabri.webp"alt="Rabri">
+                    <div class="card-content">
+                        <h3>Rabri <span class="veg-badge">🌱</span></h3>
+                        <p>Thickened sweetened milk dessert with nuts</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>All Rights Reserved &copy; 2025 Food Maker | Designed by Vignan Lara</p>
+    </footer>
+    <script src="js/menu.js"></script>
+</body>
+</html>

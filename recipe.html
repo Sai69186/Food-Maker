@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <link rel="stylesheet" href="css/recipe.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact Support</a>
+        </nav>
+    </header>
+    <main>
+        <section class="recipe-main">
+            <h1 id="recipe-title">Recipe Name</h1>
+            <div class="ingredients">
+                <h2>Ingredients</h2>
+                <ul id="ingredients-list">
+                    <!-- Ingredients populated by JS -->
+                </ul>
+                <div id="ingredients-note" class="ingredients-note"></div>
+            </div>
+            <div class="steps">
+                <h2>Easy Preparation Steps</h2>
+                <ol id="steps-list">
+                    <!-- Steps populated by JS -->
+                </ol>
+            </div>
+            <div class="recipe-video">
+                <h2>Watch How to Make</h2>
+                <iframe id="video-embed" width="560" height="315" src="" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div class="chef-info">
+                <strong>Chef:</strong> <span id="chef-name">Chef Name</span>
+            </div>
+            <div class="ratings">
+                <div>Previous Rating: <span id="prev-rating">4.5</span> ⭐</div>
+                <div>Current Rating: <span id="curr-rating">4.7</span> ⭐</div>
+                <div><ul id="prev-ratings-list"></ul></div>
+            </div>
+            </div>
+            <div class="rate-section">
+                <h3>Rate this Recipe</h3>
+                <form id="rating-form">
+                    <label for="rating">Your Rating:</label>
+                    <select id="rating" name="rating">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                    </select>
+                    <button type="submit">Submit</button>
+                </form>
+                <div id="rating-message"></div>
+            </div>
+        </section>
+    </main>
+    <script src="js/recipe.js"></script>
+</body>
+</html>

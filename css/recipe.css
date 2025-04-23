@@ -1,0 +1,126 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    background: #fff6f0;
+    color: #222;
+}
+header nav {
+    background: linear-gradient(90deg, #ff9800, #ff5722);
+    padding: 1rem;
+    text-align: center;
+}
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1.5rem;
+    font-weight: 500;
+    font-size: 1.1rem;
+    transition: color 0.2s;
+}
+header nav a:hover {
+    color: #ffd180;
+}
+main {
+    max-width: 900px;
+    margin: 2rem auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 2px 16px #ff980033;
+    padding: 2rem 2.5rem 1.5rem 2.5rem;
+}
+.recipe-main h1 {
+    margin-top: 0;
+    color: #ff5722;
+    font-size: 2.2rem;
+    letter-spacing: 1px;
+    text-align: center;
+}
+.ingredients, .steps, .recipe-video, .chef-info, .ratings, .rate-section {
+    background: #fff8ee;
+    border-radius: 10px;
+    margin: 1.2rem 0;
+    padding: 1.2rem 1.5rem;
+    box-shadow: 0 1px 6px #ff980022;
+}
+.ingredients h2, .steps h2, .recipe-video h2 {
+    color: #ff9800;
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+    font-size: 1.3rem;
+}
+.ingredients ul, .steps ol {
+    margin: 0.5rem 0 0 1.2rem;
+    font-size: 1.08rem;
+}
+.recipe-video {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+.recipe-video iframe {
+    border-radius: 10px;
+    border: 2px solid #ff9800;
+    width: 90%;
+    max-width: 560px;
+    height: 315px;
+    background: #fff;
+}
+.chef-info {
+    font-size: 1.13rem;
+    color: #c87b00;
+    margin-bottom: 0.7rem;
+    text-align: left;
+}
+.ratings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    font-size: 1.08rem;
+    margin-bottom: 1rem;
+    background: #fff3e0;
+    color: #b85c00;
+    justify-content: flex-start;
+}
+.rate-section h3 {
+    margin-top: 0.5rem;
+    font-size: 1.1rem;
+    color: #ff9800;
+}
+#rating-form {
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+    margin-bottom: 0.5rem;
+}
+#rating-form select, #rating-form button {
+    font-size: 1rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ff9800;
+}
+#rating-form button {
+    background: #ff9800;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+#rating-form button:hover {
+    background: #ff5722;
+}
+#rating-message {
+    color: #388e3c;
+    font-weight: 500;
+    min-height: 1.2em;
+}
+@media (max-width: 700px) {
+    main {
+        padding: 1rem 0.5rem;
+    }
+    .ingredients, .steps, .recipe-video, .chef-info, .ratings, .rate-section {
+        padding: 1rem 0.7rem;
+        margin: 0.7rem 0;
+    }
+    .recipe-video iframe {
+        height: 200px;
+    }
+}
